@@ -9,8 +9,8 @@ import Foundation
 
 @available(iOS 13.0, *)
 class MyView {
-    
-    func getTextString() -> String {
+    public init()
+    public func getTextString() -> String {
         return "我是可以顯示的喔"
     }
 }

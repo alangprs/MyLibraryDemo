@@ -10,10 +10,15 @@ import Foundation
 @available(iOS 13.0, *)
 public class MyView {
     
-    public init() {
-        
+    public let host: String
+    
+    public init(host: String) {
+        self.host = host
     }
-    public func getTextString() -> String {
-        return "我是可以顯示的喔"
+    
+    public func getHost() {
+        print("測試 host", host)
     }
+    
 }
+

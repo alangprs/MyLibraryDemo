@@ -20,5 +20,9 @@ public class MyView {
         print("測試 host", host)
     }
     
+    
+    public func tryit() {
+        // 測試合併之後有沒有出現訊息的commit
+    }
 }
 

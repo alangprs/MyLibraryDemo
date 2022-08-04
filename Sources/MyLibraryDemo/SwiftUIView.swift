@@ -21,8 +21,8 @@ public class MyView {
     }
     
     
-    public func tryit() {
-        // 測試合併之後有沒有出現訊息的commit
-    }
+//    public func tryit() {
+//        // 測試合併之後有沒有出現訊息的commit
+//    }
 }
 
